@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+}
+ ul li:first-child {         /* не пойму почему оно не работает*/
+     color: rgb(15, 216, 15);
+ }   
+li:nth-child(even){
+    font-size: 20px;
+}
+li:nth-child(3n+1) {
+    background-color: yellow;
+}
+a {
+    text-decoration: none
+}
+a:hover{
+    background-color: azure;
+}
+li:before{
+    content: "-";
+}
+div {
+    padding: 7px;
+    border-style: solid;
+    background-color: gray;
+}
+div div div div div{
+    background-color: red;
+}
+div div div div{
+    background-color: blueviolet;
+}
+div div div {
+    background-color: aquamarine;
+}
+div div {
+    background-color: fuchsia;
+}
+/* не поняла, что нужно сделать в первом задании */

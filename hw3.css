@@ -1,0 +1,118 @@
+body {
+  margin: 0 40px;
+}
+
+header {
+  border-bottom: 1px solid grey;
+  height: 130px;
+  position: relative;
+}
+
+.super {
+  position: absolute;
+}
+.super img {
+  height: 110px;
+  width: 150px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+h2 {
+  color: plum;
+}
+
+.flex-box:nth-child(even){
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.box {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.box:nth-child(1) {
+    height: 100px;
+    width: 400px;
+    padding-right: 20px
+}
+.flex-box:nth-child(odd){
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+.box-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+    
+
+}
+.box-flex img{
+     float: left;
+     width: 100px;
+     height: 100px;
+     padding: 15px;
+     
+    
+}
+.box-flex p{
+    display: inline;
+    width: 100px;
+    height: 100px;
+   
+   
+}
+.box1{
+   
+    border: 1px solid grey;
+    width:calc(30% - 10px);
+    padding: 10px;
+    max-width: 700px; 
+    margin: 0 auto; 
+    margin: 10px;
+    
+}
+.box1:hover{
+    background: royalblue;
+    color: #000; 
+     
+            
+}
+
+
+.super1 img{
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+  .super1{
+  position: absolute;
+}
+
+footer {
+    padding-top:20px ;
+    border-top: 1px solid grey;
+    position: relative;
+  }
+ .signature{
+     float: right;
+     padding-top:20px ;
+ }
